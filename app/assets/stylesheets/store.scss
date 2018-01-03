@@ -4,11 +4,15 @@ body {
   color: #333;
 }
 
-//h1 {
-//  font-weight: 400;
-//  font-size: 3em;
-//}
-//
+h1 {
+  text-align: center;
+  border: double;
+  //padding: 5px;
+  margin: 20px;
+  //font-weight: 400;
+  //font-size: 3em;
+}
+
 // added to style link
 a {
   color: #333;
@@ -43,6 +47,9 @@ a {
 //  }
 //}
 //
+.ch-product {
+  background-color: MistyRose
+}
 //
 //.product {
 //  width: 100%;
