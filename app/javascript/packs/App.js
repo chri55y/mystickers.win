@@ -8,7 +8,7 @@ class App extends React.Component {
         return (
             <div>
                 {/* pass products further down to Store component */}
-                <Store productsp={this.props.products}/>
+                <Store products={this.props.products}/>
             </div>
         )
     }
