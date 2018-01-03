@@ -1,10 +1,10 @@
 import React from 'react'
 
 // stateless functional component
-const ProductsList = (props) =>
+const ProductsList = ({products}) =>
 
     <div>
-        {props.products.map(prod => {
+        {products.map(prod => {
             return (<h2 key={prod.id}>{prod.name}</h2>)
         })}
     </div>
