@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MystickersWin</title>
+    <title>MyStickersWin</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class=container">
+      <h1>My Stickers Store</h1>
+      <%= yield %>
+    </div>
   </body>
 </html>
