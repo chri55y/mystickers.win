@@ -15,6 +15,7 @@ class ChargesController < ApplicationController
         :customer    => customer.id,
         :amount      => @amount,
         :description => 'sticker pack', # can modify metadata sent with our charges
+                                        # this appears in the payment details (not metatdata) on stripe dashboard
         :currency    => 'usd'
     )
 
