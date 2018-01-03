@@ -59,3 +59,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # stripe gem
 gem 'stripe'
+
+# webpacker
+gem 'webpacker'
