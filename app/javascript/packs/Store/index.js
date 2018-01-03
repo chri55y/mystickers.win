@@ -4,7 +4,11 @@ class Store extends React.Component {
     render () {
         return (
             <div>
-                Test Store/index.js text
+                {this.props.productsp.map(prod => {
+                        return (<h2 key={prod.id}>{prod.name}</h2>)
+                    }
+
+                )}
             </div>
         )
     }

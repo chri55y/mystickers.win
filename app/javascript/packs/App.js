@@ -7,7 +7,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Store />
+                {/* pass products further down to Store component */}
+                <Store productsp={this.props.products}/>
             </div>
         )
     }
@@ -17,5 +18,10 @@ export default App
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    ReactDOM.render(<App />, document.getElementById('store'))
+    // for reading data from store-data div in index.html.erb
+    const node = document.getElementById('store-data')
+    const products = JSON.parse(node.getAttribute('data-products')).data
+
+    // pass down products as props
+    ReactDOM.render(<App products={products} />, document.getElementById('store'))
 })
