@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Sticker = ({product}) =>
-    <div className="stickerContainer">
+    <div className="sticker-container">
         <h2>{product.name}</h2>
         <p>5-Pack for $5</p>
         <h3>{product.caption}</h3>
