@@ -3,6 +3,15 @@ import ProductsList from './ProductsList'
 import Cart from './Cart'
 
 class Store extends React.Component {
+
+    // need state to maintain cart
+    constructor(props) {
+        super(props)
+        this.state = {
+            cart: {}
+        }
+    }
+
     render () {
         return (
             <div>
