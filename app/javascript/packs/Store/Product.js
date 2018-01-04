@@ -9,6 +9,12 @@ const Product = ({product}) =>
             <img src={product.images[0]} alt={product.name} />
         </div>
         <h3>Free shipping!</h3>
+
+        <div className="cart-controls">
+            <button>+ Add 1 to cart</button>
+            <button>- Remove 1 from cart</button>
+        </div>
+
     </div>
 
 export default Product
