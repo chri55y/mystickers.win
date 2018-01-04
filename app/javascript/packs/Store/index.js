@@ -10,17 +10,29 @@ class Store extends React.Component {
         this.state = {
             products:   this.props.products,
             cart: {
-                items: [],
+                items: {},
                 total:  0
             }
         }
+    }
+
+    addToCart = (sku) => {
+        let cart = this.state.cart
+        cart.items[sku] = cart.items[sku]+1 || 1
+        this.setState( { cart })
+    }
+
+    removeFromCart = (sku) => {
+
     }
 
     render () {
         return (
             <div>
                 <Cart cart={this.state.cart}/>
-                <ProductsList products={this.state.products}/>
+                <ProductsList products={this.state.products}
+                              handleAdd={this.addToCart}
+                              handleRemove={this.removeFromCart} />
             </div>
         )
     }
