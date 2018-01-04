@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72983d4-61ac-4350-ae52-44489b741aab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/javascript/packs/Store/Product.js" afterPath="$PROJECT_DIR$/app/javascript/packs/Store/Product.js" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/Store/ProductsList.js" afterPath="$PROJECT_DIR$/app/javascript/packs/Store/ProductsList.js" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/Store/index.js" afterPath="$PROJECT_DIR$/app/javascript/packs/Store/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -33,23 +32,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="30">
+                  <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProductsList.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ProductsList.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/ProductsList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -60,8 +57,8 @@
           <file leaf-file-name="Product.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/Product.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -110,11 +107,11 @@
         <option value="$PROJECT_DIR$/app/javascript/packs/App.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/javascript/packs/Store/ProductList.js" />
-        <option value="$PROJECT_DIR$/app/javascript/packs/Store/index.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/store.scss" />
         <option value="$PROJECT_DIR$/app/views/store/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/javascript/packs/Store/Product.js" />
         <option value="$PROJECT_DIR$/app/javascript/packs/Store/ProductsList.js" />
+        <option value="$PROJECT_DIR$/app/javascript/packs/Store/Product.js" />
+        <option value="$PROJECT_DIR$/app/javascript/packs/Store/index.js" />
       </list>
     </option>
   </component>
@@ -374,12 +371,12 @@
       <option name="presentableId" value="Default" />
       <updated>1514934652161</updated>
       <workItem from="1514934653510" duration="14000" />
-      <workItem from="1514934697427" duration="27154000" />
+      <workItem from="1514934697427" duration="27405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27168000" />
+    <option name="totallyTimeSpent" value="27419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-158" y="-1076" width="989" height="1051" extended-state="0" />
@@ -528,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/store/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -546,21 +533,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/ProductsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/Product.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/ProductsList.js">
+    <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

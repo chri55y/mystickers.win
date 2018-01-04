@@ -1,7 +1,7 @@
 import React from 'react'
 import Product from './Product'
 
-// stateless functional component
+
 const ProductsList = ({products}) =>
     <div>
         {products.map(prod => {
