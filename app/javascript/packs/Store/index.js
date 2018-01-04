@@ -8,7 +8,10 @@ class Store extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            cart: {}
+            cart: {
+                items: [],
+                total:  0
+            }
         }
     }
 
