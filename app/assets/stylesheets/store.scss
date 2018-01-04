@@ -47,12 +47,13 @@ a {
 //  }
 //}
 //
-.ch-product {
-  background-color: MistyRose
-}
+//.ch-product {
+//  background-color: MistyRose
+//}
 
 .product {
-  width: 100%;
+  //width: 100%;
+  max-width:  100%;
   height: auto;//450px;
   padding: 20px;
   border-bottom: dotted 1px black;
@@ -66,7 +67,7 @@ a {
 .sticker {
   border: solid 1px #333;
   width:  auto;//505px;
-  max-width: 590px;
+  max-width: 100%;//590px;
   padding: 5px;
 
   img {
@@ -77,7 +78,7 @@ a {
   }
 }
 
-//just called .payment-form in tutorial
+
 .stripe-payment-form {
   margin-top: 15px;
 }
