@@ -19,7 +19,7 @@ class Store extends React.Component {
     render () {
         return (
             <div>
-                <Cart />
+                <Cart cart={this.state.cart}/>
                 <ProductsList products={this.state.products}/>
             </div>
         )
