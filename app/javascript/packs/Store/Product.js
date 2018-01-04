@@ -11,8 +11,8 @@ const Product = ({product}) =>
         <h3>Free shipping!</h3>
 
         <div className="cart-controls">
-            <button>+ Add 1 to cart</button>
-            <button>- Remove 1 from cart</button>
+            <button>+ Add to cart</button>
+            <button>- Remove from cart</button>
         </div>
 
     </div>
