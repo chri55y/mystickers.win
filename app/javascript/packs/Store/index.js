@@ -8,6 +8,7 @@ class Store extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
+            products:   this.props.products,
             cart: {
                 items: [],
                 total:  0
@@ -19,7 +20,7 @@ class Store extends React.Component {
         return (
             <div>
                 <Cart />
-                <ProductsList products={this.props.products}/>
+                <ProductsList products={this.state.products}/>
             </div>
         )
     }
