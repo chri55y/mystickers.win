@@ -29,7 +29,14 @@ class Store extends React.Component {
     }
 
     removeFromCart = (sku) => {
-
+        let cart = this.state.cart
+        if (sku.id in cart.items && cart.items[sku.id] > 0) {
+            cart.items[sku.id] = cart.items[sku.id] - 1
+            cart.total -= sku.price
+                // best practice would be to calculate totals on the server
+                // but for simplicity, we'll calculate them here
+            this.setState({cart})
+        }
     }
 
     render () {

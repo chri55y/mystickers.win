@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d72983d4-61ac-4350-ae52-44489b741aab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/Store/Product.js" afterPath="$PROJECT_DIR$/app/javascript/packs/Store/Product.js" />
       <change beforePath="$PROJECT_DIR$/app/javascript/packs/Store/index.js" afterPath="$PROJECT_DIR$/app/javascript/packs/Store/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -36,8 +34,8 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+                <state relative-caret-position="18">
+                  <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -61,7 +59,7 @@
             <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/Product.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="80" />
+                  <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="80" />
                   <folding />
                 </state>
               </provider>
@@ -387,12 +385,12 @@
       <updated>1514934652161</updated>
       <workItem from="1514934653510" duration="14000" />
       <workItem from="1514934697427" duration="34246000" />
-      <workItem from="1515612213634" duration="1400000" />
+      <workItem from="1515612213634" duration="1880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35660000" />
+    <option name="totallyTimeSpent" value="36140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="618" y="-1073" width="1129" height="1072" extended-state="0" />
@@ -622,15 +620,15 @@
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/Product.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="80" />
+          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/javascript/packs/Store/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="18">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
