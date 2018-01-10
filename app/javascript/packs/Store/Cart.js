@@ -7,11 +7,20 @@ import StripeCheckout from 'react-stripe-checkout'
     // ran "yarn add react-stripe-checkout" to install
 
 
-const Cart = ({cart}) =>
+                    // function passed from Store (index.js)
+const Cart = ({cart, onToken}) =>
     <div className="cart">
         Total in Cart: ${cart.total/100}
         { cart.total > 0 &&
-            <StripeCheckout />
+            <StripeCheckout
+                token={onToken}
+                stripeKey="pk_test_2zExv5yMl5kGjgnufMAb28Wt"
+                description="Stickers from mystickers.win"
+                amount={cart.total}
+                label="Checkout"
+                billingAddress={true}
+                shippingAddress={true}
+            />
         }
     </div>
 

@@ -39,10 +39,15 @@ class Store extends React.Component {
         }
     }
 
+    // use a payment token from Stripe to make further calls to Stripe API
+    onToken = (token) => {
+
+    }
+
     render () {
         return (
             <div>
-                <Cart cart={this.state.cart}/>
+                <Cart cart={this.state.cart} onToken={this.onToken}/>
                 <ProductsList products={this.state.products}
                               handleAdd={this.addToCart}
                               handleRemove={this.removeFromCart} />
