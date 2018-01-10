@@ -10,6 +10,9 @@ import StripeCheckout from 'react-stripe-checkout'
 const Cart = ({cart}) =>
     <div className="cart">
         Total in Cart: ${cart.total/100}
+        { cart.total > 0 &&
+            <StripeCheckout />
+        }
     </div>
 
 export default Cart
