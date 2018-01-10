@@ -12,14 +12,20 @@ class Store extends React.Component {
             cart: {
                 items: {},
                 total:  0
+
             }
         }
     }
 
     addToCart = (sku) => {
         let cart = this.state.cart
-        cart.items[sku] = cart.items[sku]+1 || 1
+        cart.items[sku.id] = cart.items[sku.id]+1 || 1
+
+        cart.total += sku.price
+            // best practice would be to calculate totals on the server
+            // but for simplicity, we'll calculate them here
         this.setState( { cart })
+        // console.log(this.state.cart)
     }
 
     removeFromCart = (sku) => {

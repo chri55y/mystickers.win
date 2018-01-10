@@ -5,11 +5,11 @@ import Sticker from './Sticker'
 class Product extends React.Component {
 
     handleCartAdd = () => {
-        this.props.handleAdd(this.props.product.skus.data[0].id)
+        this.props.handleAdd(this.props.product.skus.data[0])
     }
 
     handleCartRemove = () => {
-        this.props.handleRemove(this.props.product.skus.data[0].id)
+        this.props.handleRemove(this.props.product.skus.data[0])
     }
 
     render() {
