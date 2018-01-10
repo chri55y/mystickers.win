@@ -54,7 +54,7 @@ class Store extends React.Component {
             }
         })
             .then(response => {
-
+                message = response.data.message
             })
     }
 
