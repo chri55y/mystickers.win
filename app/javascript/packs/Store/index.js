@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductsList from './ProductsList'
 import Cart from './Cart'
+import axios from 'axios'
 
 class Store extends React.Component {
 
@@ -41,7 +42,20 @@ class Store extends React.Component {
 
     // use a payment token from Stripe to make further calls to Stripe API
     onToken = (token) => {
+        // post token and cart data to charges controller
+        const data = {...token, cart: this.state.cart}
+        axios({
+            url:    '/charges',
+            method: 'POST',
+            data:   data,
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').content
+            }
+        })
+            .then(response => {
 
+            })
     }
 
     render () {
